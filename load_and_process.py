@@ -20,7 +20,7 @@ def load_fer2013():
         faces = np.expand_dims(faces, -1)
         emotions = pd.get_dummies(data['emotion']).as_matrix()
         print(emotions.shape)
-        print("I am branching from branch1.1")
+        print("I am branching from branch1.1...")
         return faces, emotions
 
 def preprocess_input(x, v2=True):
